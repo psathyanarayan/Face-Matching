@@ -27,3 +27,4 @@ def upload_file():
 def filereport(filename):
      with open(os.path.join(app.config['UPLOAD_FOLDER'], filename),"rb") as rawimage:
         #finalImage =opencv(rawimage)
+        pass
